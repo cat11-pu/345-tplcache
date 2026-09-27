@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "bad_name_code": "E_BAD_NAME",
+  "bad_text_code": "E_BAD_TEXT",
+  "dup_code": "E_DUP_TPL",
+  "missing_code": "E_NO_TPL",
+  "arg_code": "E_MISSING_ARG",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "templates": [], "rendered": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "tpl", "name": "g", "text": "{{w}}" },
+    { "id": 2, "kind": "render", "name": "g", "args": [["w", "a"]] },
+    { "id": 3, "kind": "tpl", "name": "p", "text": "{{x}}-{{y}}" },
+    { "id": 4, "kind": "render", "name": "p", "args": [["x", "1"], ["y", "2"]] }
+  ]
+}
